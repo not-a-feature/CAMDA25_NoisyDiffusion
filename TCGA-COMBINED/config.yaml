@@ -14,7 +14,7 @@ dataset_config:
   sample_col_name: "samplesID" 
   subtype_col_name: "cancer_type" #"Subtype" 
   num_splits: 5
-  random_seed: 106102107
+  random_seed: 42
 
 generator_name: "embedded_diffusion"
 train: True
@@ -57,7 +57,7 @@ embedded_diffusion_config:
   dropout: 0.2
   
   # Embedding dimensions
-  time_embedding_dim: 64
+  time_embedding_dim: 128
   label_embedding_dim: 64
   
   # Attention
