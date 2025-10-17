@@ -1,4 +1,4 @@
-Subtype
+0
 BRCA.Basal
 BRCA.Basal
 BRCA.Basal
@@ -149,8 +149,10 @@ BRCA.Basal
 BRCA.Basal
 BRCA.Basal
 BRCA.Basal
-BRCA.Her2
-BRCA.Her2
+BRCA.Basal
+BRCA.Basal
+BRCA.Basal
+BRCA.Basal
 BRCA.Her2
 BRCA.Her2
 BRCA.Her2
@@ -215,7 +217,6 @@ BRCA.Her2
 BRCA.Her2
 BRCA.Her2
 BRCA.Her2
-BRCA.LumA
 BRCA.LumA
 BRCA.LumA
 BRCA.LumA
@@ -663,9 +664,6 @@ BRCA.LumA
 BRCA.LumA
 BRCA.LumA
 BRCA.LumA
-BRCA.LumA
-BRCA.LumB
-BRCA.LumB
 BRCA.LumB
 BRCA.LumB
 BRCA.LumB
@@ -838,6 +836,8 @@ BRCA.LumB
 BRCA.LumB
 BRCA.LumB
 BRCA.LumB
+BRCA.Normal
+BRCA.Normal
 BRCA.Normal
 BRCA.Normal
 BRCA.Normal
