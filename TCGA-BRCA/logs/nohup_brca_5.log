@@ -1,0 +1,619 @@
+/beegfs/HPCscratch/kreuer/CAMDA_25/generators/EmbeddedDiffusion/main.py:180: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  y_numpy = y_train.replace(
+embedded_diffusion
+Using 8 groups for GroupNorm
+Using 8 groups for GroupNorm
+Applying SMOTE to balance the dataset...
+Class distribution before SMOTE: Counter({3: 450, 4: 172, 0: 148, 2: 68, 1: 34})
+Class distribution after SMOTE: Counter({0: 3000, 1: 3000, 2: 3000, 3: 3000, 4: 3000})
+Epoch 0/300, Average Loss: 1.206148, Learning Rate: 0.000040
+New best model with loss: 1.206148
+Epoch 1/300, Average Loss: 0.984617, Learning Rate: 0.000041
+New best model with loss: 0.984617
+Epoch 2/300, Average Loss: 0.888244, Learning Rate: 0.000043
+New best model with loss: 0.888244
+Epoch 3/300, Average Loss: 0.657225, Learning Rate: 0.000046
+New best model with loss: 0.657225
+Epoch 4/300, Average Loss: 0.446433, Learning Rate: 0.000050
+New best model with loss: 0.446433
+Epoch 5/300, Average Loss: 0.318038, Learning Rate: 0.000056
+New best model with loss: 0.318038
+Epoch 6/300, Average Loss: 0.244756, Learning Rate: 0.000063
+New best model with loss: 0.244756
+Epoch 7/300, Average Loss: 0.204197, Learning Rate: 0.000072
+New best model with loss: 0.204197
+Epoch 8/300, Average Loss: 0.186398, Learning Rate: 0.000082
+New best model with loss: 0.186398
+Epoch 9/300, Average Loss: 0.183992, Learning Rate: 0.000092
+New best model with loss: 0.183992
+Epoch 10/300, Average Loss: 0.176429, Learning Rate: 0.000104
+New best model with loss: 0.176429
+Epoch 11/300, Average Loss: 0.178134, Learning Rate: 0.000117
+No improvement for 1 epochs. Best loss: 0.176429
+Epoch 12/300, Average Loss: 0.178538, Learning Rate: 0.000132
+No improvement for 2 epochs. Best loss: 0.176429
+Epoch 13/300, Average Loss: 0.179720, Learning Rate: 0.000147
+No improvement for 3 epochs. Best loss: 0.176429
+Epoch 14/300, Average Loss: 0.181963, Learning Rate: 0.000163
+No improvement for 4 epochs. Best loss: 0.176429
+Epoch 15/300, Average Loss: 0.180668, Learning Rate: 0.000181
+No improvement for 5 epochs. Best loss: 0.176429
+Epoch 16/300, Average Loss: 0.182671, Learning Rate: 0.000199
+No improvement for 6 epochs. Best loss: 0.176429
+Epoch 17/300, Average Loss: 0.180505, Learning Rate: 0.000218
+No improvement for 7 epochs. Best loss: 0.176429
+Epoch 18/300, Average Loss: 0.184006, Learning Rate: 0.000238
+No improvement for 8 epochs. Best loss: 0.176429
+Epoch 19/300, Average Loss: 0.183148, Learning Rate: 0.000259
+No improvement for 9 epochs. Best loss: 0.176429
+Epoch 20/300, Average Loss: 0.179877, Learning Rate: 0.000280
+No improvement for 10 epochs. Best loss: 0.176429
+Epoch 21/300, Average Loss: 0.184244, Learning Rate: 0.000302
+No improvement for 11 epochs. Best loss: 0.176429
+Epoch 22/300, Average Loss: 0.181770, Learning Rate: 0.000325
+No improvement for 12 epochs. Best loss: 0.176429
+Epoch 23/300, Average Loss: 0.181379, Learning Rate: 0.000348
+No improvement for 13 epochs. Best loss: 0.176429
+Epoch 24/300, Average Loss: 0.179546, Learning Rate: 0.000372
+No improvement for 14 epochs. Best loss: 0.176429
+Epoch 25/300, Average Loss: 0.178056, Learning Rate: 0.000396
+No improvement for 15 epochs. Best loss: 0.176429
+Epoch 26/300, Average Loss: 0.176447, Learning Rate: 0.000420
+No improvement for 16 epochs. Best loss: 0.176429
+Epoch 27/300, Average Loss: 0.172171, Learning Rate: 0.000445
+New best model with loss: 0.172171
+Epoch 28/300, Average Loss: 0.172533, Learning Rate: 0.000470
+No improvement for 1 epochs. Best loss: 0.172171
+Epoch 29/300, Average Loss: 0.169706, Learning Rate: 0.000495
+New best model with loss: 0.169706
+Epoch 30/300, Average Loss: 0.168808, Learning Rate: 0.000520
+New best model with loss: 0.168808
+Epoch 31/300, Average Loss: 0.166183, Learning Rate: 0.000545
+New best model with loss: 0.166183
+Epoch 32/300, Average Loss: 0.164896, Learning Rate: 0.000570
+New best model with loss: 0.164896
+Epoch 33/300, Average Loss: 0.161140, Learning Rate: 0.000595
+New best model with loss: 0.161140
+Epoch 34/300, Average Loss: 0.163783, Learning Rate: 0.000620
+No improvement for 1 epochs. Best loss: 0.161140
+Epoch 35/300, Average Loss: 0.160476, Learning Rate: 0.000644
+New best model with loss: 0.160476
+Epoch 36/300, Average Loss: 0.157054, Learning Rate: 0.000668
+New best model with loss: 0.157054
+Epoch 37/300, Average Loss: 0.156951, Learning Rate: 0.000692
+New best model with loss: 0.156951
+Epoch 38/300, Average Loss: 0.154447, Learning Rate: 0.000715
+New best model with loss: 0.154447
+Epoch 39/300, Average Loss: 0.152116, Learning Rate: 0.000738
+New best model with loss: 0.152116
+Epoch 40/300, Average Loss: 0.146653, Learning Rate: 0.000760
+New best model with loss: 0.146653
+Epoch 41/300, Average Loss: 0.148298, Learning Rate: 0.000781
+No improvement for 1 epochs. Best loss: 0.146653
+Epoch 42/300, Average Loss: 0.147365, Learning Rate: 0.000802
+No improvement for 2 epochs. Best loss: 0.146653
+Epoch 43/300, Average Loss: 0.141222, Learning Rate: 0.000822
+New best model with loss: 0.141222
+Epoch 44/300, Average Loss: 0.139703, Learning Rate: 0.000841
+New best model with loss: 0.139703
+Epoch 45/300, Average Loss: 0.143922, Learning Rate: 0.000859
+No improvement for 1 epochs. Best loss: 0.139703
+Epoch 46/300, Average Loss: 0.140234, Learning Rate: 0.000877
+No improvement for 2 epochs. Best loss: 0.139703
+Epoch 47/300, Average Loss: 0.135873, Learning Rate: 0.000893
+New best model with loss: 0.135873
+Epoch 48/300, Average Loss: 0.136232, Learning Rate: 0.000908
+No improvement for 1 epochs. Best loss: 0.135873
+Epoch 49/300, Average Loss: 0.134163, Learning Rate: 0.000923
+New best model with loss: 0.134163
+Epoch 50/300, Average Loss: 0.133761, Learning Rate: 0.000936
+New best model with loss: 0.133761
+Epoch 51/300, Average Loss: 0.129476, Learning Rate: 0.000948
+New best model with loss: 0.129476
+Epoch 52/300, Average Loss: 0.130876, Learning Rate: 0.000959
+No improvement for 1 epochs. Best loss: 0.129476
+Epoch 53/300, Average Loss: 0.128008, Learning Rate: 0.000968
+New best model with loss: 0.128008
+Epoch 54/300, Average Loss: 0.127576, Learning Rate: 0.000977
+New best model with loss: 0.127576
+Epoch 55/300, Average Loss: 0.122180, Learning Rate: 0.000984
+New best model with loss: 0.122180
+Epoch 56/300, Average Loss: 0.120978, Learning Rate: 0.000990
+New best model with loss: 0.120978
+Epoch 57/300, Average Loss: 0.122346, Learning Rate: 0.000994
+No improvement for 1 epochs. Best loss: 0.120978
+Epoch 58/300, Average Loss: 0.121240, Learning Rate: 0.000997
+No improvement for 2 epochs. Best loss: 0.120978
+Epoch 59/300, Average Loss: 0.120162, Learning Rate: 0.000999
+New best model with loss: 0.120162
+Epoch 60/300, Average Loss: 0.118664, Learning Rate: 0.001000
+New best model with loss: 0.118664
+Epoch 61/300, Average Loss: 0.119346, Learning Rate: 0.001000
+No improvement for 1 epochs. Best loss: 0.118664
+Epoch 62/300, Average Loss: 0.113746, Learning Rate: 0.001000
+New best model with loss: 0.113746
+Epoch 63/300, Average Loss: 0.116192, Learning Rate: 0.001000
+No improvement for 1 epochs. Best loss: 0.113746
+Epoch 64/300, Average Loss: 0.114552, Learning Rate: 0.000999
+No improvement for 2 epochs. Best loss: 0.113746
+Epoch 65/300, Average Loss: 0.112226, Learning Rate: 0.000999
+New best model with loss: 0.112226
+Epoch 66/300, Average Loss: 0.111230, Learning Rate: 0.000998
+New best model with loss: 0.111230
+Epoch 67/300, Average Loss: 0.110392, Learning Rate: 0.000998
+New best model with loss: 0.110392
+Epoch 68/300, Average Loss: 0.110562, Learning Rate: 0.000997
+No improvement for 1 epochs. Best loss: 0.110392
+Epoch 69/300, Average Loss: 0.108792, Learning Rate: 0.000997
+New best model with loss: 0.108792
+Epoch 70/300, Average Loss: 0.110060, Learning Rate: 0.000996
+No improvement for 1 epochs. Best loss: 0.108792
+Epoch 71/300, Average Loss: 0.108953, Learning Rate: 0.000995
+No improvement for 2 epochs. Best loss: 0.108792
+Epoch 72/300, Average Loss: 0.107570, Learning Rate: 0.000994
+New best model with loss: 0.107570
+Epoch 73/300, Average Loss: 0.107948, Learning Rate: 0.000993
+No improvement for 1 epochs. Best loss: 0.107570
+Epoch 74/300, Average Loss: 0.107925, Learning Rate: 0.000992
+No improvement for 2 epochs. Best loss: 0.107570
+Epoch 75/300, Average Loss: 0.105764, Learning Rate: 0.000990
+New best model with loss: 0.105764
+Epoch 76/300, Average Loss: 0.104511, Learning Rate: 0.000989
+New best model with loss: 0.104511
+Epoch 77/300, Average Loss: 0.102135, Learning Rate: 0.000988
+New best model with loss: 0.102135
+Epoch 78/300, Average Loss: 0.102075, Learning Rate: 0.000986
+No improvement for 1 epochs. Best loss: 0.102135
+Epoch 79/300, Average Loss: 0.104140, Learning Rate: 0.000985
+No improvement for 2 epochs. Best loss: 0.102135
+Epoch 80/300, Average Loss: 0.099712, Learning Rate: 0.000983
+New best model with loss: 0.099712
+Epoch 81/300, Average Loss: 0.102146, Learning Rate: 0.000981
+No improvement for 1 epochs. Best loss: 0.099712
+Epoch 82/300, Average Loss: 0.102949, Learning Rate: 0.000979
+No improvement for 2 epochs. Best loss: 0.099712
+Epoch 83/300, Average Loss: 0.100188, Learning Rate: 0.000978
+No improvement for 3 epochs. Best loss: 0.099712
+Epoch 84/300, Average Loss: 0.099725, Learning Rate: 0.000976
+No improvement for 4 epochs. Best loss: 0.099712
+Epoch 85/300, Average Loss: 0.100621, Learning Rate: 0.000974
+No improvement for 5 epochs. Best loss: 0.099712
+Epoch 86/300, Average Loss: 0.100628, Learning Rate: 0.000971
+No improvement for 6 epochs. Best loss: 0.099712
+Epoch 87/300, Average Loss: 0.098260, Learning Rate: 0.000969
+New best model with loss: 0.098260
+Epoch 88/300, Average Loss: 0.098701, Learning Rate: 0.000967
+No improvement for 1 epochs. Best loss: 0.098260
+Epoch 89/300, Average Loss: 0.096527, Learning Rate: 0.000964
+New best model with loss: 0.096527
+Epoch 90/300, Average Loss: 0.097280, Learning Rate: 0.000962
+No improvement for 1 epochs. Best loss: 0.096527
+Epoch 91/300, Average Loss: 0.098456, Learning Rate: 0.000959
+No improvement for 2 epochs. Best loss: 0.096527
+Epoch 92/300, Average Loss: 0.097728, Learning Rate: 0.000957
+No improvement for 3 epochs. Best loss: 0.096527
+Epoch 93/300, Average Loss: 0.096142, Learning Rate: 0.000954
+New best model with loss: 0.096142
+Epoch 94/300, Average Loss: 0.095337, Learning Rate: 0.000951
+New best model with loss: 0.095337
+Epoch 95/300, Average Loss: 0.095543, Learning Rate: 0.000949
+No improvement for 1 epochs. Best loss: 0.095337
+Epoch 96/300, Average Loss: 0.094907, Learning Rate: 0.000946
+New best model with loss: 0.094907
+Epoch 97/300, Average Loss: 0.092994, Learning Rate: 0.000943
+New best model with loss: 0.092994
+Epoch 98/300, Average Loss: 0.096588, Learning Rate: 0.000939
+No improvement for 1 epochs. Best loss: 0.092994
+Epoch 99/300, Average Loss: 0.092447, Learning Rate: 0.000936
+New best model with loss: 0.092447
+Epoch 100/300, Average Loss: 0.094288, Learning Rate: 0.000933
+No improvement for 1 epochs. Best loss: 0.092447
+Epoch 101/300, Average Loss: 0.090328, Learning Rate: 0.000930
+New best model with loss: 0.090328
+Epoch 102/300, Average Loss: 0.092078, Learning Rate: 0.000926
+No improvement for 1 epochs. Best loss: 0.090328
+Epoch 103/300, Average Loss: 0.094262, Learning Rate: 0.000923
+No improvement for 2 epochs. Best loss: 0.090328
+Epoch 104/300, Average Loss: 0.092848, Learning Rate: 0.000919
+No improvement for 3 epochs. Best loss: 0.090328
+Epoch 105/300, Average Loss: 0.092590, Learning Rate: 0.000916
+No improvement for 4 epochs. Best loss: 0.090328
+Epoch 106/300, Average Loss: 0.090207, Learning Rate: 0.000912
+New best model with loss: 0.090207
+Epoch 107/300, Average Loss: 0.090957, Learning Rate: 0.000908
+No improvement for 1 epochs. Best loss: 0.090207
+Epoch 108/300, Average Loss: 0.089178, Learning Rate: 0.000905
+New best model with loss: 0.089178
+Epoch 109/300, Average Loss: 0.090525, Learning Rate: 0.000901
+No improvement for 1 epochs. Best loss: 0.089178
+Epoch 110/300, Average Loss: 0.089486, Learning Rate: 0.000897
+No improvement for 2 epochs. Best loss: 0.089178
+Epoch 111/300, Average Loss: 0.089795, Learning Rate: 0.000893
+No improvement for 3 epochs. Best loss: 0.089178
+Epoch 112/300, Average Loss: 0.089268, Learning Rate: 0.000889
+No improvement for 4 epochs. Best loss: 0.089178
+Epoch 113/300, Average Loss: 0.089093, Learning Rate: 0.000885
+No improvement for 5 epochs. Best loss: 0.089178
+Epoch 114/300, Average Loss: 0.086156, Learning Rate: 0.000880
+New best model with loss: 0.086156
+Epoch 115/300, Average Loss: 0.090845, Learning Rate: 0.000876
+No improvement for 1 epochs. Best loss: 0.086156
+Epoch 116/300, Average Loss: 0.088411, Learning Rate: 0.000872
+No improvement for 2 epochs. Best loss: 0.086156
+Epoch 117/300, Average Loss: 0.088312, Learning Rate: 0.000867
+No improvement for 3 epochs. Best loss: 0.086156
+Epoch 118/300, Average Loss: 0.087925, Learning Rate: 0.000863
+No improvement for 4 epochs. Best loss: 0.086156
+Epoch 119/300, Average Loss: 0.088354, Learning Rate: 0.000858
+No improvement for 5 epochs. Best loss: 0.086156
+Epoch 120/300, Average Loss: 0.086549, Learning Rate: 0.000854
+No improvement for 6 epochs. Best loss: 0.086156
+Epoch 121/300, Average Loss: 0.088185, Learning Rate: 0.000849
+No improvement for 7 epochs. Best loss: 0.086156
+Epoch 122/300, Average Loss: 0.086588, Learning Rate: 0.000844
+No improvement for 8 epochs. Best loss: 0.086156
+Epoch 123/300, Average Loss: 0.084139, Learning Rate: 0.000840
+New best model with loss: 0.084139
+Epoch 124/300, Average Loss: 0.088171, Learning Rate: 0.000835
+No improvement for 1 epochs. Best loss: 0.084139
+Epoch 125/300, Average Loss: 0.083913, Learning Rate: 0.000830
+New best model with loss: 0.083913
+Epoch 126/300, Average Loss: 0.085015, Learning Rate: 0.000825
+No improvement for 1 epochs. Best loss: 0.083913
+Epoch 127/300, Average Loss: 0.083890, Learning Rate: 0.000820
+No improvement for 2 epochs. Best loss: 0.083913
+Epoch 128/300, Average Loss: 0.083775, Learning Rate: 0.000815
+New best model with loss: 0.083775
+Epoch 129/300, Average Loss: 0.083493, Learning Rate: 0.000810
+New best model with loss: 0.083493
+Epoch 130/300, Average Loss: 0.083204, Learning Rate: 0.000805
+New best model with loss: 0.083204
+Epoch 131/300, Average Loss: 0.085073, Learning Rate: 0.000799
+No improvement for 1 epochs. Best loss: 0.083204
+Epoch 132/300, Average Loss: 0.083416, Learning Rate: 0.000794
+No improvement for 2 epochs. Best loss: 0.083204
+Epoch 133/300, Average Loss: 0.081308, Learning Rate: 0.000789
+New best model with loss: 0.081308
+Epoch 134/300, Average Loss: 0.081333, Learning Rate: 0.000784
+No improvement for 1 epochs. Best loss: 0.081308
+Epoch 135/300, Average Loss: 0.085210, Learning Rate: 0.000778
+No improvement for 2 epochs. Best loss: 0.081308
+Epoch 136/300, Average Loss: 0.085263, Learning Rate: 0.000773
+No improvement for 3 epochs. Best loss: 0.081308
+Epoch 137/300, Average Loss: 0.084407, Learning Rate: 0.000767
+No improvement for 4 epochs. Best loss: 0.081308
+Epoch 138/300, Average Loss: 0.080251, Learning Rate: 0.000762
+New best model with loss: 0.080251
+Epoch 139/300, Average Loss: 0.081831, Learning Rate: 0.000756
+No improvement for 1 epochs. Best loss: 0.080251
+Epoch 140/300, Average Loss: 0.080819, Learning Rate: 0.000750
+No improvement for 2 epochs. Best loss: 0.080251
+Epoch 141/300, Average Loss: 0.081676, Learning Rate: 0.000745
+No improvement for 3 epochs. Best loss: 0.080251
+Epoch 142/300, Average Loss: 0.080337, Learning Rate: 0.000739
+No improvement for 4 epochs. Best loss: 0.080251
+Epoch 143/300, Average Loss: 0.079347, Learning Rate: 0.000733
+New best model with loss: 0.079347
+Epoch 144/300, Average Loss: 0.080689, Learning Rate: 0.000727
+No improvement for 1 epochs. Best loss: 0.079347
+Epoch 145/300, Average Loss: 0.081041, Learning Rate: 0.000722
+No improvement for 2 epochs. Best loss: 0.079347
+Epoch 146/300, Average Loss: 0.079802, Learning Rate: 0.000716
+No improvement for 3 epochs. Best loss: 0.079347
+Epoch 147/300, Average Loss: 0.077722, Learning Rate: 0.000710
+New best model with loss: 0.077722
+Epoch 148/300, Average Loss: 0.079197, Learning Rate: 0.000704
+No improvement for 1 epochs. Best loss: 0.077722
+Epoch 149/300, Average Loss: 0.079441, Learning Rate: 0.000698
+No improvement for 2 epochs. Best loss: 0.077722
+Epoch 150/300, Average Loss: 0.079722, Learning Rate: 0.000692
+No improvement for 3 epochs. Best loss: 0.077722
+Epoch 151/300, Average Loss: 0.079676, Learning Rate: 0.000686
+No improvement for 4 epochs. Best loss: 0.077722
+Epoch 152/300, Average Loss: 0.079216, Learning Rate: 0.000680
+No improvement for 5 epochs. Best loss: 0.077722
+Epoch 153/300, Average Loss: 0.078550, Learning Rate: 0.000674
+No improvement for 6 epochs. Best loss: 0.077722
+Epoch 154/300, Average Loss: 0.079156, Learning Rate: 0.000667
+No improvement for 7 epochs. Best loss: 0.077722
+Epoch 155/300, Average Loss: 0.078057, Learning Rate: 0.000661
+No improvement for 8 epochs. Best loss: 0.077722
+Epoch 156/300, Average Loss: 0.076711, Learning Rate: 0.000655
+New best model with loss: 0.076711
+Epoch 157/300, Average Loss: 0.078716, Learning Rate: 0.000649
+No improvement for 1 epochs. Best loss: 0.076711
+Epoch 158/300, Average Loss: 0.077251, Learning Rate: 0.000643
+No improvement for 2 epochs. Best loss: 0.076711
+Epoch 159/300, Average Loss: 0.077720, Learning Rate: 0.000636
+No improvement for 3 epochs. Best loss: 0.076711
+Epoch 160/300, Average Loss: 0.078452, Learning Rate: 0.000630
+No improvement for 4 epochs. Best loss: 0.076711
+Epoch 161/300, Average Loss: 0.076738, Learning Rate: 0.000624
+No improvement for 5 epochs. Best loss: 0.076711
+Epoch 162/300, Average Loss: 0.075972, Learning Rate: 0.000617
+New best model with loss: 0.075972
+Epoch 163/300, Average Loss: 0.076400, Learning Rate: 0.000611
+No improvement for 1 epochs. Best loss: 0.075972
+Epoch 164/300, Average Loss: 0.075439, Learning Rate: 0.000605
+New best model with loss: 0.075439
+Epoch 165/300, Average Loss: 0.077308, Learning Rate: 0.000598
+No improvement for 1 epochs. Best loss: 0.075439
+Epoch 166/300, Average Loss: 0.075247, Learning Rate: 0.000592
+New best model with loss: 0.075247
+Epoch 167/300, Average Loss: 0.074480, Learning Rate: 0.000585
+New best model with loss: 0.074480
+Epoch 168/300, Average Loss: 0.074466, Learning Rate: 0.000579
+No improvement for 1 epochs. Best loss: 0.074480
+Epoch 169/300, Average Loss: 0.075132, Learning Rate: 0.000572
+No improvement for 2 epochs. Best loss: 0.074480
+Epoch 170/300, Average Loss: 0.076595, Learning Rate: 0.000566
+No improvement for 3 epochs. Best loss: 0.074480
+Epoch 171/300, Average Loss: 0.075073, Learning Rate: 0.000559
+No improvement for 4 epochs. Best loss: 0.074480
+Epoch 172/300, Average Loss: 0.072319, Learning Rate: 0.000553
+New best model with loss: 0.072319
+Epoch 173/300, Average Loss: 0.075628, Learning Rate: 0.000546
+No improvement for 1 epochs. Best loss: 0.072319
+Epoch 174/300, Average Loss: 0.074217, Learning Rate: 0.000540
+No improvement for 2 epochs. Best loss: 0.072319
+Epoch 175/300, Average Loss: 0.071780, Learning Rate: 0.000533
+New best model with loss: 0.071780
+Epoch 176/300, Average Loss: 0.074134, Learning Rate: 0.000527
+No improvement for 1 epochs. Best loss: 0.071780
+Epoch 177/300, Average Loss: 0.074032, Learning Rate: 0.000520
+No improvement for 2 epochs. Best loss: 0.071780
+Epoch 178/300, Average Loss: 0.072636, Learning Rate: 0.000514
+No improvement for 3 epochs. Best loss: 0.071780
+Epoch 179/300, Average Loss: 0.072930, Learning Rate: 0.000507
+No improvement for 4 epochs. Best loss: 0.071780
+Epoch 180/300, Average Loss: 0.073018, Learning Rate: 0.000501
+No improvement for 5 epochs. Best loss: 0.071780
+Epoch 181/300, Average Loss: 0.073580, Learning Rate: 0.000494
+No improvement for 6 epochs. Best loss: 0.071780
+Epoch 182/300, Average Loss: 0.073088, Learning Rate: 0.000488
+No improvement for 7 epochs. Best loss: 0.071780
+Epoch 183/300, Average Loss: 0.071517, Learning Rate: 0.000481
+New best model with loss: 0.071517
+Epoch 184/300, Average Loss: 0.070937, Learning Rate: 0.000475
+New best model with loss: 0.070937
+Epoch 185/300, Average Loss: 0.071524, Learning Rate: 0.000468
+No improvement for 1 epochs. Best loss: 0.070937
+Epoch 186/300, Average Loss: 0.072366, Learning Rate: 0.000462
+No improvement for 2 epochs. Best loss: 0.070937
+Epoch 187/300, Average Loss: 0.071103, Learning Rate: 0.000455
+No improvement for 3 epochs. Best loss: 0.070937
+Epoch 188/300, Average Loss: 0.071609, Learning Rate: 0.000449
+No improvement for 4 epochs. Best loss: 0.070937
+Epoch 189/300, Average Loss: 0.071736, Learning Rate: 0.000442
+No improvement for 5 epochs. Best loss: 0.070937
+Epoch 190/300, Average Loss: 0.069015, Learning Rate: 0.000436
+New best model with loss: 0.069015
+Epoch 191/300, Average Loss: 0.071308, Learning Rate: 0.000429
+No improvement for 1 epochs. Best loss: 0.069015
+Epoch 192/300, Average Loss: 0.069918, Learning Rate: 0.000423
+No improvement for 2 epochs. Best loss: 0.069015
+Epoch 193/300, Average Loss: 0.071098, Learning Rate: 0.000416
+No improvement for 3 epochs. Best loss: 0.069015
+Epoch 194/300, Average Loss: 0.070347, Learning Rate: 0.000410
+No improvement for 4 epochs. Best loss: 0.069015
+Epoch 195/300, Average Loss: 0.071054, Learning Rate: 0.000403
+No improvement for 5 epochs. Best loss: 0.069015
+Epoch 196/300, Average Loss: 0.069297, Learning Rate: 0.000397
+No improvement for 6 epochs. Best loss: 0.069015
+Epoch 197/300, Average Loss: 0.069149, Learning Rate: 0.000391
+No improvement for 7 epochs. Best loss: 0.069015
+Epoch 198/300, Average Loss: 0.069888, Learning Rate: 0.000384
+No improvement for 8 epochs. Best loss: 0.069015
+Epoch 199/300, Average Loss: 0.069573, Learning Rate: 0.000378
+No improvement for 9 epochs. Best loss: 0.069015
+Epoch 200/300, Average Loss: 0.068054, Learning Rate: 0.000372
+New best model with loss: 0.068054
+Epoch 201/300, Average Loss: 0.068074, Learning Rate: 0.000365
+No improvement for 1 epochs. Best loss: 0.068054
+Epoch 202/300, Average Loss: 0.068357, Learning Rate: 0.000359
+No improvement for 2 epochs. Best loss: 0.068054
+Epoch 203/300, Average Loss: 0.068345, Learning Rate: 0.000353
+No improvement for 3 epochs. Best loss: 0.068054
+Epoch 204/300, Average Loss: 0.066360, Learning Rate: 0.000347
+New best model with loss: 0.066360
+Epoch 205/300, Average Loss: 0.068550, Learning Rate: 0.000340
+No improvement for 1 epochs. Best loss: 0.066360
+Epoch 206/300, Average Loss: 0.069032, Learning Rate: 0.000334
+No improvement for 2 epochs. Best loss: 0.066360
+Epoch 207/300, Average Loss: 0.067416, Learning Rate: 0.000328
+No improvement for 3 epochs. Best loss: 0.066360
+Epoch 208/300, Average Loss: 0.067754, Learning Rate: 0.000322
+No improvement for 4 epochs. Best loss: 0.066360
+Epoch 209/300, Average Loss: 0.067782, Learning Rate: 0.000316
+No improvement for 5 epochs. Best loss: 0.066360
+Epoch 210/300, Average Loss: 0.068117, Learning Rate: 0.000310
+No improvement for 6 epochs. Best loss: 0.066360
+Epoch 211/300, Average Loss: 0.067163, Learning Rate: 0.000304
+No improvement for 7 epochs. Best loss: 0.066360
+Epoch 212/300, Average Loss: 0.066498, Learning Rate: 0.000298
+No improvement for 8 epochs. Best loss: 0.066360
+Epoch 213/300, Average Loss: 0.066962, Learning Rate: 0.000292
+No improvement for 9 epochs. Best loss: 0.066360
+Epoch 214/300, Average Loss: 0.067068, Learning Rate: 0.000286
+No improvement for 10 epochs. Best loss: 0.066360
+Epoch 215/300, Average Loss: 0.068072, Learning Rate: 0.000280
+No improvement for 11 epochs. Best loss: 0.066360
+Epoch 216/300, Average Loss: 0.066502, Learning Rate: 0.000274
+No improvement for 12 epochs. Best loss: 0.066360
+Epoch 217/300, Average Loss: 0.066827, Learning Rate: 0.000268
+No improvement for 13 epochs. Best loss: 0.066360
+Epoch 218/300, Average Loss: 0.066328, Learning Rate: 0.000263
+No improvement for 14 epochs. Best loss: 0.066360
+Epoch 219/300, Average Loss: 0.066621, Learning Rate: 0.000257
+No improvement for 15 epochs. Best loss: 0.066360
+Epoch 220/300, Average Loss: 0.067774, Learning Rate: 0.000251
+No improvement for 16 epochs. Best loss: 0.066360
+Epoch 221/300, Average Loss: 0.066063, Learning Rate: 0.000246
+New best model with loss: 0.066063
+Epoch 222/300, Average Loss: 0.066124, Learning Rate: 0.000240
+No improvement for 1 epochs. Best loss: 0.066063
+Epoch 223/300, Average Loss: 0.064836, Learning Rate: 0.000234
+New best model with loss: 0.064836
+Epoch 224/300, Average Loss: 0.063705, Learning Rate: 0.000229
+New best model with loss: 0.063705
+Epoch 225/300, Average Loss: 0.065498, Learning Rate: 0.000223
+No improvement for 1 epochs. Best loss: 0.063705
+Epoch 226/300, Average Loss: 0.066141, Learning Rate: 0.000218
+No improvement for 2 epochs. Best loss: 0.063705
+Epoch 227/300, Average Loss: 0.064225, Learning Rate: 0.000213
+No improvement for 3 epochs. Best loss: 0.063705
+Epoch 228/300, Average Loss: 0.064719, Learning Rate: 0.000207
+No improvement for 4 epochs. Best loss: 0.063705
+Epoch 229/300, Average Loss: 0.065211, Learning Rate: 0.000202
+No improvement for 5 epochs. Best loss: 0.063705
+Epoch 230/300, Average Loss: 0.062693, Learning Rate: 0.000197
+New best model with loss: 0.062693
+Epoch 231/300, Average Loss: 0.064387, Learning Rate: 0.000192
+No improvement for 1 epochs. Best loss: 0.062693
+Epoch 232/300, Average Loss: 0.063274, Learning Rate: 0.000187
+No improvement for 2 epochs. Best loss: 0.062693
+Epoch 233/300, Average Loss: 0.063738, Learning Rate: 0.000182
+No improvement for 3 epochs. Best loss: 0.062693
+Epoch 234/300, Average Loss: 0.063389, Learning Rate: 0.000177
+No improvement for 4 epochs. Best loss: 0.062693
+Epoch 235/300, Average Loss: 0.063173, Learning Rate: 0.000172
+No improvement for 5 epochs. Best loss: 0.062693
+Epoch 236/300, Average Loss: 0.062975, Learning Rate: 0.000167
+No improvement for 6 epochs. Best loss: 0.062693
+Epoch 237/300, Average Loss: 0.064642, Learning Rate: 0.000162
+No improvement for 7 epochs. Best loss: 0.062693
+Epoch 238/300, Average Loss: 0.063590, Learning Rate: 0.000157
+No improvement for 8 epochs. Best loss: 0.062693
+Epoch 239/300, Average Loss: 0.062773, Learning Rate: 0.000152
+No improvement for 9 epochs. Best loss: 0.062693
+Epoch 240/300, Average Loss: 0.064154, Learning Rate: 0.000148
+No improvement for 10 epochs. Best loss: 0.062693
+Epoch 241/300, Average Loss: 0.063203, Learning Rate: 0.000143
+No improvement for 11 epochs. Best loss: 0.062693
+Epoch 242/300, Average Loss: 0.061865, Learning Rate: 0.000139
+New best model with loss: 0.061865
+Epoch 243/300, Average Loss: 0.062698, Learning Rate: 0.000134
+No improvement for 1 epochs. Best loss: 0.061865
+Epoch 244/300, Average Loss: 0.062380, Learning Rate: 0.000130
+No improvement for 2 epochs. Best loss: 0.061865
+Epoch 245/300, Average Loss: 0.062863, Learning Rate: 0.000125
+No improvement for 3 epochs. Best loss: 0.061865
+Epoch 246/300, Average Loss: 0.063182, Learning Rate: 0.000121
+No improvement for 4 epochs. Best loss: 0.061865
+Epoch 247/300, Average Loss: 0.062492, Learning Rate: 0.000117
+No improvement for 5 epochs. Best loss: 0.061865
+Epoch 248/300, Average Loss: 0.062104, Learning Rate: 0.000113
+No improvement for 6 epochs. Best loss: 0.061865
+Epoch 249/300, Average Loss: 0.060321, Learning Rate: 0.000109
+New best model with loss: 0.060321
+Epoch 250/300, Average Loss: 0.061904, Learning Rate: 0.000105
+No improvement for 1 epochs. Best loss: 0.060321
+Epoch 251/300, Average Loss: 0.062945, Learning Rate: 0.000101
+No improvement for 2 epochs. Best loss: 0.060321
+Epoch 252/300, Average Loss: 0.062594, Learning Rate: 0.000097
+No improvement for 3 epochs. Best loss: 0.060321
+Epoch 253/300, Average Loss: 0.060808, Learning Rate: 0.000093
+No improvement for 4 epochs. Best loss: 0.060321
+Epoch 254/300, Average Loss: 0.062093, Learning Rate: 0.000089
+No improvement for 5 epochs. Best loss: 0.060321
+Epoch 255/300, Average Loss: 0.060943, Learning Rate: 0.000086
+No improvement for 6 epochs. Best loss: 0.060321
+Epoch 256/300, Average Loss: 0.062669, Learning Rate: 0.000082
+No improvement for 7 epochs. Best loss: 0.060321
+Epoch 257/300, Average Loss: 0.059347, Learning Rate: 0.000079
+New best model with loss: 0.059347
+Epoch 258/300, Average Loss: 0.059507, Learning Rate: 0.000075
+No improvement for 1 epochs. Best loss: 0.059347
+Epoch 259/300, Average Loss: 0.060033, Learning Rate: 0.000072
+No improvement for 2 epochs. Best loss: 0.059347
+Epoch 260/300, Average Loss: 0.060256, Learning Rate: 0.000068
+No improvement for 3 epochs. Best loss: 0.059347
+Epoch 261/300, Average Loss: 0.061137, Learning Rate: 0.000065
+No improvement for 4 epochs. Best loss: 0.059347
+Epoch 262/300, Average Loss: 0.062240, Learning Rate: 0.000062
+No improvement for 5 epochs. Best loss: 0.059347
+Epoch 263/300, Average Loss: 0.061052, Learning Rate: 0.000059
+No improvement for 6 epochs. Best loss: 0.059347
+Epoch 264/300, Average Loss: 0.060877, Learning Rate: 0.000056
+No improvement for 7 epochs. Best loss: 0.059347
+Epoch 265/300, Average Loss: 0.060632, Learning Rate: 0.000053
+No improvement for 8 epochs. Best loss: 0.059347
+Epoch 266/300, Average Loss: 0.060418, Learning Rate: 0.000050
+No improvement for 9 epochs. Best loss: 0.059347
+Epoch 267/300, Average Loss: 0.060738, Learning Rate: 0.000047
+No improvement for 10 epochs. Best loss: 0.059347
+Epoch 268/300, Average Loss: 0.060328, Learning Rate: 0.000045
+No improvement for 11 epochs. Best loss: 0.059347
+Epoch 269/300, Average Loss: 0.059817, Learning Rate: 0.000042
+No improvement for 12 epochs. Best loss: 0.059347
+Epoch 270/300, Average Loss: 0.060289, Learning Rate: 0.000040
+No improvement for 13 epochs. Best loss: 0.059347
+Epoch 271/300, Average Loss: 0.060514, Learning Rate: 0.000037
+No improvement for 14 epochs. Best loss: 0.059347
+Epoch 272/300, Average Loss: 0.060266, Learning Rate: 0.000035
+No improvement for 15 epochs. Best loss: 0.059347
+Epoch 273/300, Average Loss: 0.060634, Learning Rate: 0.000032
+No improvement for 16 epochs. Best loss: 0.059347
+Epoch 274/300, Average Loss: 0.059599, Learning Rate: 0.000030
+No improvement for 17 epochs. Best loss: 0.059347
+Epoch 275/300, Average Loss: 0.060198, Learning Rate: 0.000028
+No improvement for 18 epochs. Best loss: 0.059347
+Epoch 276/300, Average Loss: 0.060455, Learning Rate: 0.000026
+No improvement for 19 epochs. Best loss: 0.059347
+Epoch 277/300, Average Loss: 0.060203, Learning Rate: 0.000024
+No improvement for 20 epochs. Best loss: 0.059347
+Epoch 278/300, Average Loss: 0.059711, Learning Rate: 0.000022
+No improvement for 21 epochs. Best loss: 0.059347
+Epoch 279/300, Average Loss: 0.059702, Learning Rate: 0.000020
+No improvement for 22 epochs. Best loss: 0.059347
+Epoch 280/300, Average Loss: 0.060182, Learning Rate: 0.000019
+No improvement for 23 epochs. Best loss: 0.059347
+Epoch 281/300, Average Loss: 0.059066, Learning Rate: 0.000017
+New best model with loss: 0.059066
+Epoch 282/300, Average Loss: 0.059854, Learning Rate: 0.000015
+No improvement for 1 epochs. Best loss: 0.059066
+Epoch 283/300, Average Loss: 0.059021, Learning Rate: 0.000014
+No improvement for 2 epochs. Best loss: 0.059066
+Epoch 284/300, Average Loss: 0.060735, Learning Rate: 0.000013
+No improvement for 3 epochs. Best loss: 0.059066
+Epoch 285/300, Average Loss: 0.060151, Learning Rate: 0.000011
+No improvement for 4 epochs. Best loss: 0.059066
+Epoch 286/300, Average Loss: 0.058987, Learning Rate: 0.000010
+No improvement for 5 epochs. Best loss: 0.059066
+Epoch 287/300, Average Loss: 0.059983, Learning Rate: 0.000009
+No improvement for 6 epochs. Best loss: 0.059066
+Epoch 288/300, Average Loss: 0.058894, Learning Rate: 0.000008
+New best model with loss: 0.058894
+Epoch 289/300, Average Loss: 0.058423, Learning Rate: 0.000007
+New best model with loss: 0.058423
+Epoch 290/300, Average Loss: 0.057828, Learning Rate: 0.000006
+New best model with loss: 0.057828
+Epoch 291/300, Average Loss: 0.059684, Learning Rate: 0.000005
+No improvement for 1 epochs. Best loss: 0.057828
+Epoch 292/300, Average Loss: 0.060027, Learning Rate: 0.000004
+No improvement for 2 epochs. Best loss: 0.057828
+Epoch 293/300, Average Loss: 0.058919, Learning Rate: 0.000004
+No improvement for 3 epochs. Best loss: 0.057828
+Epoch 294/300, Average Loss: 0.062298, Learning Rate: 0.000003
+No improvement for 4 epochs. Best loss: 0.057828
+Epoch 295/300, Average Loss: 0.059342, Learning Rate: 0.000003
+No improvement for 5 epochs. Best loss: 0.057828
+Epoch 296/300, Average Loss: 0.060552, Learning Rate: 0.000002
+No improvement for 6 epochs. Best loss: 0.057828
+Epoch 297/300, Average Loss: 0.060080, Learning Rate: 0.000002
+No improvement for 7 epochs. Best loss: 0.057828
+Epoch 298/300, Average Loss: 0.059181, Learning Rate: 0.000002
+No improvement for 8 epochs. Best loss: 0.057828
+/beegfs/HPCscratch/kreuer/miniconda3/envs/CAMDA_25/lib/python3.12/site-packages/sklearn/preprocessing/_data.py:2824: UserWarning: n_quantiles (1000) is greater than the total number of samples (872). n_quantiles is set to n_samples.
+  warnings.warn(
+/beegfs/HPCscratch/kreuer/CAMDA_25/generators/EmbeddedDiffusion/main.py:58: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  self.y_train = y_train.replace(self.label_mapping).values
+Epoch 299/300, Average Loss: 0.059559, Learning Rate: 0.000002
+No improvement for 9 epochs. Best loss: 0.057828
+Model saved to /beegfs/HPCscratch/kreuer/CAMDA_25/models/embedded_diffusion_5.pth
+Generating 148 samples for label 0...
+Generating 34 samples for label 1...
+Generating 68 samples for label 2...
+Generating 450 samples for label 3...
+Generating 172 samples for label 4...
+Synthetic data saved in /beegfs/HPCscratch/kreuer/CAMDA_25/data/TCGA-BRCA/synthetic/embedded_diffusion/brca_5.
